@@ -35,4 +35,4 @@ jobs:
       uses: actions/upload-artifact@v3
       with:
         name: modules-test-windows-binary
-        path: ${{github.workspace}}/build/ModulesTest.exe
+        path: ${{github.workspace}}\build\Release\ModulesTest.exe
